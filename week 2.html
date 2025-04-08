@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Advanced HTML5</title>
+ <style>                        
+  table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  }
+ </style>
+</head>
+<body>
+
+ <h2>CARS    CARS    CARS</h2>
+
+  <ol style="list-style-type:I;">
+   <li>Mercedes</li>
+   <li>BMW</li>
+	<li>Audi</li>
+	<li>Toyota</li>
+  </ol>
+
+  <img src="https://images.pexels.com/photos/3879065/pexels-photo-3879065.jpeg" alt="Toyota Landcruiser on sand" width="150" height="100">
+
+
+  <table>
+    <caption>Contact List</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Doe</td>
+        <td>124 New York, NY</td>
+        <td>+1 555-123-4567</td>
+        <td>janedoe@gmail.com</td>
+      </tr>
+      <tr>
+        <td>John </td>
+        <td>456 Los Angeles, CA</td>
+        <td>+1 555-234-5678</td>
+        <td>johnsmith@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Johnson</td>
+        <td>111 Chicago, IL</td>
+        <td>+1 555-345-6789</td>
+        <td>emilyjohnson@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Brown</td>
+        <td>321 Houston, TX</td>
+        <td>+1 555-456-7890</td>
+        <td>michael.brown@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Sarah</td>
+        <td>654 Seattle, WA</td>
+        <td>+1 555-567-8901</td>
+        <td>sarahwilson@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+        <!--end of table-->
+  <br><br>
+      <!--start of the form-->
+  <form>
+   <fieldset>
+	  <legend>Registration form</legend>
+	    <label for="name">Name:</label>
+		 <input type="text" id="name" name="name" required>
+		 <br><br>
+		 <label for="email">Email:</label>
+		 <input type="email" id="email" name="email" required>
+		 <br><br>
+		 <label for="password">Password:</label>
+		 <input type="password" id="password" name="password" required>
+		 <br><br>
+		 <label for="gender-male">Gender:</label><br>
+       <input type="radio" id="gender-male" name="gender" value="male">
+       <label for="gender-male">Male</label>
+       <input type="radio" id="gender-female" name="gender" value="female">
+       <label for="gender-female">Female</label>
+		 <br><br>
+		 <label for="country" placeholder="choose country">Country</label>
+		 <select id="country" name="country">
+		  <option value="" disabled selected>Select a country</option>
+		  <option value="ke">Kenya</option>
+		  <option value="tz">Tanzania</option>
+		  <option value="ug">Uganda</option>
+		 </select>
+		 <br><br>
+		 <input type="checkbox" id="agree" name="agree" required>
+		 <label for="agree">I am human</label>
+		 <br><br>
+		 <button type="submit">Submit</button>
+	</fieldset>
+  </form>
+       <!--end of form-->
+</body>
+</html>
